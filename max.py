@@ -1,11 +1,6 @@
-n = {6,78,95,2,4,77}
-
-
-for i in n:
-    max = i
-    break
-
-for i in n:
-    if i > max:
-        max = i
+nums={22,34,12,78,24,13}
+max=0
+for i in nums:
+    if max<i:
+        max=i
 print(max)
